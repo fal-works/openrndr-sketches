@@ -66,13 +66,10 @@ class Example : Program() {
         }
 
         // Draw in 3d with line segments
-        drawer.lineSegments3d(lineSegmentListVertices3d)    // For drawing in 3D
+        drawer.lineSegments3d(lineSegmentListVertices3d)
 
         // Draw in 2d with contour
-        /*
-        val c = ShapeContour.fromPoints(contourVertices2d, false)
-        drawer.contour(c)
-        */
+//        drawer.contour(ShapeContour.fromPoints(contourVertices2d, false))
     }
 }
 
