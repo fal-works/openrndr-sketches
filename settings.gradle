@@ -1,0 +1,5 @@
+rootProject.name = 'openrndr-sketches'
+
+include 'fujii-attractor',
+        'gumowski-mira-attractor',
+        'lorentz-attractor'
